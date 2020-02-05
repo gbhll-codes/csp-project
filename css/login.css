@@ -1,0 +1,116 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+    background-color: white;
+
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid;
+    color: #5BB12F;
+}
+
+.login h1{
+    text-align: center; 
+    float: center;
+    font-size: 50px;
+    border-bottom: 3px solid ;
+    border-bottom-color:#5BB12F ;
+    color: black;
+}
+
+
+.box h1{
+    border-bottom: 2px solid;
+    color: #5BB12F ;
+    
+}
+
+.login{
+    width: 280px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+
+}
+.reserve{
+    width: 250px;
+    position: absolute;
+    top: 4%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.reserve a {
+    color: #5BB12F;
+}
+
+.login1 a{
+    color: black;
+}
+
+.login1{
+    width: 200px;   
+    position: absolute;
+    top: 4%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    color: #5BB12F;
+}
+
+
+.box{
+    color: #5BB12F;
+    
+}
+
+.box i{
+    width: 60px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+
+.textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 18px;
+    width: 200px;
+    float: left;
+    margin: 0 10px;
+
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid;
+    color: #5BB12F;
+    padding: 5px;
+    font-size: 18px;
+}
+
+
+

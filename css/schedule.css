@@ -1,0 +1,82 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+    background-color:white;
+
+}
+
+.reserve{
+    width: 250px;
+    position: absolute;
+    top: 4%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.reserve a {
+    color: #5BB12F;
+}
+
+.login1 a{
+    color: #5BB12F;
+}
+
+.login1{
+    width: 200px;
+    position: absolute;
+    top: 4%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    color: #5BB12F;
+}
+
+.box{
+    color: #5BB12F;
+    
+}
+
+.box i{
+    width: 60px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+.box h1{
+    border-bottom: 2px solid;
+    color: #5BB12F ;
+    
+}
+
+.schedule h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.reservation{
+    margin-top: 75px;
+    text-align: center;
+
+}
+
+.position{
+   
+    text-align: center;
+}
+
+.row{
+    
+    margin-left: 100px;
+}
+
+.submit{
+    
+    margin-top: 10px;
+}
