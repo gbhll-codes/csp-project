@@ -22,8 +22,11 @@
                                 <td><?php echo $row['email']; ?></td>
                                 <td><?php echo $row['time']; ?></td>
                                 <td><?php echo $row['date']; ?></td>
-                                <td class="text-right"><button 
-                                 type="submit" class="btn btn-danger badge-pill " <?php echo $row['id']; ?>>Delete</button></td> 
+                                <td class="text-right">
+                                    <form action="delete.php" method="POST">
+                                        <button type="submit" class="btn btn-danger badge-pill" name="id" value="<?php echo $row['id']; ?>" >Delete </button>
+                                    </form>
+                                </td> 
                                 
                                 
                             </tr>
@@ -54,8 +57,10 @@
                             <td><?php echo $row['time']; ?></td>
                             <td><?php echo $row['date']; ?></td>
                             <td class="text-right">
-                                <button  type="submit" class="btn btn-danger badge-pill " <?php echo $row['id'] ?> >Delete</button>
-                            </td> 
+                           <form action="delete.php" method="POST">
+                                        <button type="submit" class="btn btn-danger badge-pill" name="id" value="<?php echo $row['id']; ?>" >Delete </button>
+                                    </form>        
+                        </td> 
                             
                             
                         </tr>
